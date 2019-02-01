@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATE_COLUMN_1 = "DATE";
     public static final String CATEGORY_COLUMN_2 = "CATEGORY";
     public static final String AMOUNT_COLMUN_3 = "AMOUNT";
+
+    private Button button;
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
