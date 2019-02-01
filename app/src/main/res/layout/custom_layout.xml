@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/CategoryTextViewID"
+            android:layout_width="155dp"
+            android:layout_height="44dp"
+            android:textSize="22sp"
+            android:text="Salary"/>
+
+        <TextView
+            android:id="@+id/DateTextViewId"
+            android:layout_width="155dp"
+            android:layout_height="40dp"
+            android:textSize="18sp"
+            android:text="1 Jan 2019" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/AmountTextViewId"
+            android:layout_width="82dp"
+            android:layout_height="41dp"
+            android:textSize="18sp"
+            android:text="5500.00"
+            tools:layout_editor_absoluteX="286dp"
+            tools:layout_editor_absoluteY="25dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bfabab"
+    android:gravity="center"
+    tools:context=".input">
+
+    <EditText
+        android:id="@+id/dateEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:hint="Enter a date"
+        />
+    <EditText
+        android:id="@+id/categoryEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:hint="Enter a category"
+        />
+    <EditText
+        android:id="@+id/amountEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:hint="Enter a Amount"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/AddButtonId"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_button"
+        android:text="Add Info"
+        android:textSize="20sp"
+        android:textColor="#533333"
+        android:textStyle="bold"/>
+
+</LinearLayout>
